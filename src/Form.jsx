@@ -32,6 +32,7 @@ class Form extends React.Component{
         return(
             <>
             <form onSubmit={this.submitData}>
+                 <div className="form1">Application Form React</div>
                 <div className="box-left">
               <div>  <input type="text" placeholder="full name" value={this.state.value} onChange={this.valueChanges}/></div>
               <div> <input type="email" placeholder="Email" value={this.state.email} onChange={this.emailChanges}/></div>
